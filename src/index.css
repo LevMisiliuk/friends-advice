@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: BrixSansRegular;
+    src: url(assets/fonts/BRIX\ SANS\ REGULAR.TTF);
+}
+
+@font-face {
+    font-family: BrixSansMedium;
+    src: url(assets/fonts/BRIX\ SANS\ MEDIUM.TTF);
+}
+
+@font-face {
+    font-family: BrixSansBold;
+    src: url(assets/fonts/BRIX\ SANS\ BOLD.TTF);
+}
+
+@font-face {
+    font-family: BrixSansBlack;
+    src: url(assets/fonts/BRIX\ SANS\ BLACK.TTF);
+}
+
+body {
+    --primary-green: #37A58C;
+    --primary-pink: #DD0060;
+    --primary-gray: #F2F2F2;
+    overflow: hidden;
+
+    font-family: BrixSansRegular, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+    padding: 0;
+    height: 40px;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+input {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding: 0 8px;
+    outline: none;
+    height: 40px;
+
+    background: #FFFFFF;
+    /* Light mode/Gray 76 */
+
+    border: 1px solid #C3C3C3;
+    box-sizing: border-box;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}

@@ -1,0 +1,49 @@
+{
+  "name": "friends-advice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-styled-components": "^1.13.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^0.24.0",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-datepicker": "^4.5.0",
+    "react-dom": "^17.0.2",
+    "react-dropdown": "^1.9.2",
+    "react-input-checkbox": "^0.1.6",
+    "react-radio-group": "^3.0.3",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.0.1",
+    "react-select": "^5.2.1",
+    "react-tooltip": "^4.2.21",
+    "react-transition-group": "^4.4.2",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
+    "styled-components": "^5.3.3"
+  }
+}
